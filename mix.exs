@@ -40,6 +40,7 @@ defmodule CloudWatch.Mixfile do
     [
       {:aws, git: "https://github.com/aws-beam/aws-elixir", optional: true},
       {:httpoison, "~> 1.5"},
+      {:poison, "~> 3.1"},
       {:credo, "~> 0.4.13", only: :dev},
       {:mock, "~> 0.3.2", only: :test},
       {:ex_doc, ">= 0.0.0", only: :dev}
